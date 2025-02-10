@@ -18,7 +18,7 @@ MAPF::MAPF(Graph* _G,
 MAPF::MAPF(Graph* _G,
            PIBT_Agents _A,
            std::vector<Task*> _T,
-           std::mt19937* _MT) : Problem(_G, _A, _T, _MT)
+           std::mt19937* __MT) : Problem(_G, _A, _T, __MT)
 {
   init();
 }
